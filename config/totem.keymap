@@ -79,11 +79,7 @@
         };
     };
 
-    mod-morph_esc_q:
 
-    mod-morph_esc_q:
-
-    mod-morph_esc_q:
 
     mod_morph_esc_q: mod-morph_esc_q {
         compatible = "zmk,behavior-mod-morph";
