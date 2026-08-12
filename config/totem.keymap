@@ -79,27 +79,22 @@
         };
     };
 
-
-
     mod_morph_esc_q: mod-morph_esc_q {
         compatible = "zmk,behavior-mod-morph";
         label = "mod-morph_esc_q";
         bindings = <&kp ESCAPE>, <&kp Q>;
-
         #binding-cells = <0>;
         mods = <(MOD_RSFT)>;
-    };
 
-    mod-morph_esc_q:
-mod-morph_bs_p: mod-morph_bs_p:
+    };
 
     mod_morph_bs_p: mod-morph_bs_p {
         compatible = "zmk,behavior-mod-morph";
         label = "MOD-MORPH_BS_P";
         bindings = <&kp BACKSPACE>, <&kp P>;
-
         #binding-cells = <0>;
         mods = <(MOD_LSFT)>;
+
     };
 };
 
