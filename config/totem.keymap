@@ -85,7 +85,7 @@
 
     mod-morph_esc_q:
 
-    mod-morph_esc_q {
+    mod_morph_esc_q: mod-morph_esc_q {
         compatible = "zmk,behavior-mod-morph";
         label = "mod-morph_esc_q";
         bindings = <&kp ESCAPE>, <&kp Q>;
@@ -97,7 +97,7 @@
     mod-morph_esc_q:
 mod-morph_bs_p: mod-morph_bs_p:
 
-    mod_morph_bs_pmod_morph_bs_p: mod-morph_bs_p {
+    mod_morph_bs_p: mod-morph_bs_p {
         compatible = "zmk,behavior-mod-morph";
         label = "MOD-MORPH_BS_P";
         bindings = <&kp BACKSPACE>, <&kp P>;
@@ -105,6 +105,9 @@ mod-morph_bs_p: mod-morph_bs_p:
         #binding-cells = <0>;
         mods = <(MOD_LSFT)>;
     };
+};
+
+behaviors {
 };
 
 behaviors {
