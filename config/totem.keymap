@@ -60,6 +60,11 @@
             bindings = <&kp Q>;
             key-positions = <0 1>;
         };
+
+        us_kana {
+            bindings = <&kp RA(GRAVE)>;
+            key-positions = <18 11>;
+        };
     };
 
     macros {
