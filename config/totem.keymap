@@ -75,8 +75,11 @@
                 <&macro_release>,
                 <&kp LSHFT>,
                 <&macro_tap>,
-                <&kp G &kp I &kp F>;
+                <&kp G>,
+                <&kp I>,
+                <&kp F>;
         };
+
     };
 
     mod_morph_esc_q: mod-morph_esc_q {
