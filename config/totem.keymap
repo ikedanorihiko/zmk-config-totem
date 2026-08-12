@@ -81,6 +81,8 @@
 
     mod-morph_esc_q:
 
+    mod-morph_esc_q:
+
     mod-morph_esc_q {
         compatible = "zmk,behavior-mod-morph";
         label = "MOD-MORPH_ESC_Q";
@@ -91,8 +93,19 @@
     };
 
     mod-morph_esc_q:
+mod-morph_bs_p: mod-morph_bs_p:
 
-    mod-morph_esc_q { compatible = "zmk,behavior-mod-morph"; };
+    mod-morph_bs_p {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MOD-MORPH_BS_P";
+        bindings = <&kp BACKSPACE>, <&kp P>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT)>;
+    };
+};
+
+behaviors {
 };
 
 keymap {
