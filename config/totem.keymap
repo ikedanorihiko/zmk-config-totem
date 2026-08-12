@@ -83,9 +83,11 @@
 
     mod-morph_esc_q:
 
+    mod-morph_esc_q:
+
     mod-morph_esc_q {
         compatible = "zmk,behavior-mod-morph";
-        label = "MOD-MORPH_ESC_Q";
+        label = "mod-morph_esc_q";
         bindings = <&kp ESCAPE>, <&kp Q>;
 
         #binding-cells = <0>;
@@ -95,7 +97,7 @@
     mod-morph_esc_q:
 mod-morph_bs_p: mod-morph_bs_p:
 
-    mod-morph_bs_p {
+    mod_morph_bs_pmod_morph_bs_p: mod-morph_bs_p {
         compatible = "zmk,behavior-mod-morph";
         label = "MOD-MORPH_BS_P";
         bindings = <&kp BACKSPACE>, <&kp P>;
@@ -103,6 +105,9 @@ mod-morph_bs_p: mod-morph_bs_p:
         #binding-cells = <0>;
         mods = <(MOD_LSFT)>;
     };
+};
+
+behaviors {
 };
 
 behaviors {
@@ -130,7 +135,7 @@ keymap {
         //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
         bindings = <
-            &kp ESCAPE    &kp W  &kp E    &kp R        &kp T        &kp Y    &kp U        &kp I      &kp O    &kp P
+            &undefined    &kp W  &kp E    &kp R        &kp T        &kp Y    &kp U        &kp I      &kp O    &undefined
             &mt LCTRL A   &kp S  &kp D    &kp F        &kp G        &kp H    &kp J        &kp K      &kp L    &lt 3 ENTER
 &kp ESCAPE  &mt LSHIFT Z  &kp X  &kp C    &kp V        &kp B        &kp N    &kp M        &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH  &kp SEMI
                                  &kp DEL  &lt NAV TAB  &kp SPACE    &kp RET  &lt SYM ESC  &kp BSPC
