@@ -175,10 +175,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL     &kp AT       &kp HASH   &kp DLLR     &kp PRCNT    &none            &kp UNDER       &kp UP      &kp LEFT_PARENTHESIS   &kp DQT
-        &kp RA(A)    &trans       &kp RA(S)  &trans       &trans       &kp HASH         &kp LEFT_ARROW  &kp RIGHT   &kp RIGHT_PARENTHESIS  &kp RA(O)
-&trans  &kp RA(F18)  &kp RA(F19)  &trans     &trans       &trans       &kp AMPS         &kp DOWN        &kp C_PREV  &kp C_NEXT             &kp BSLH   &trans
-                                  &trans     &lt 2 SPACE  &lt 1 TAB    &lt 1 BACKSPACE  &kp C_PP        &trans
+        &kp EXCL     &kp AT       &kp HASH   &kp DLLR  &kp PRCNT    &none     &kp UNDER       &kp UP      &kp LEFT_PARENTHESIS   &kp DQT
+        &kp RA(A)    &trans       &kp RA(S)  &trans    &trans       &kp HASH  &kp LEFT_ARROW  &kp RIGHT   &kp RIGHT_PARENTHESIS  &kp RA(O)
+&trans  &kp RA(F18)  &kp RA(F19)  &trans     &trans    &trans       &kp AMPS  &kp DOWN        &kp C_PREV  &kp C_NEXT             &kp BSLH   &trans
+                                  &trans     &none     &none        &none     &kp LA(GRAVE)   &trans
             >;
         };
 
