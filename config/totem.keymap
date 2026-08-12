@@ -42,10 +42,10 @@
         combo_num {
             timeout-ms = <100>;
             key-positions = <24 33>;
-            bindings = <&tog 2>;
+            bindings = <&tog 1>;
         };
 
-        function {
+        combo_function {
             bindings = <&tog 3>;
             key-positions = <33 13>;
             timeout-ms = <100>;
