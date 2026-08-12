@@ -39,10 +39,26 @@
             bindings = <&kp ESC>;
         };
 
-        combo_tvp {
+        combo_num {
             timeout-ms = <100>;
-            key-positions = <11 12 13>;
-            bindings = <&tog TVP1>;
+            key-positions = <24 33>;
+            bindings = <&tog 1>;
+        };
+
+        function {
+            bindings = <&tog 3>;
+            key-positions = <33 13>;
+            timeout-ms = <100>;
+        };
+
+        p {
+            bindings = <&kp P>;
+            key-positions = <9 8>;
+        };
+
+        q {
+            bindings = <&kp Q>;
+            key-positions = <0 1>;
         };
     };
 
