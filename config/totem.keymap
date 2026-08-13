@@ -182,7 +182,7 @@
 
             bindings = <
         &kp QUESTION  &kp DOUBLE_QUOTES  &kp EQUAL   &kp ASTERISK  &kp CARET        &none     &kp UNDER       &kp UP     &kp LEFT_PARENTHESIS   &kp DEL
-        &kp AT_SIGN   &kp SLASH          &kp DOLLAR  &kp SQT       &kp PERCENT      &kp HASH  &kp LEFT_ARROW  &kp RIGHT  &kp RIGHT_PARENTHESIS  &kp RA(ENTER)
+        &kp AT_SIGN   &kp SLASH          &kp DOLLAR  &kp SQT       &kp PERCENT      &kp HASH  &kp LEFT_ARROW  &kp RIGHT  &kp RIGHT_PARENTHESIS  &kp ENTER
 &trans  &kp LSHIFT    &kp EXCLAMATION    &trans      &kp F10       &kp BACKSLASH    &kp AMPS  &kp DOWN        &mkp MB4   &mkp MB5               &kp RIGHT_SHIFT  &trans
                                          &trans      &none         &none            &none     &kp LA(GRAVE)   &trans
             >;
