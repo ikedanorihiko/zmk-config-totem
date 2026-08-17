@@ -156,8 +156,8 @@
 
             bindings = <
           &kp ESC         &none             &none             &none              &none                &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp BACKSPACE
-          &kp HOME        &kp LG(LC(LEFT))  &kp LG(LS(LEFT))  &kp LG(LC(RIGHT))  &kp END              &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH
-&mkp MB1  &kp LEFT_SHIFT  &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp RIGHT_BRACKET    &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD     &kp COLON
+          &kp HOME        &kp LG(LC(LEFT))  &kp LG(LS(LEFT))  &kp LG(LC(RIGHT))  &kp END              &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LS(ENTER)
+&mkp MB1  &kp LEFT_SHIFT  &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp RIGHT_BRACKET    &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH      &kp COLON
                                             &trans            &trans             &trans               &kp F10       &kp MINUS     &kp N0
             >;
         };
@@ -183,7 +183,7 @@
             bindings = <
         &kp QUESTION  &kp DOUBLE_QUOTES  &kp EQUAL   &kp ASTERISK  &kp CARET        &none     &kp UNDER       &kp UP     &kp LEFT_PARENTHESIS   &kp DEL
         &kp AT_SIGN   &kp SLASH          &kp DOLLAR  &kp SQT       &kp PERCENT      &kp HASH  &kp LEFT_ARROW  &kp RIGHT  &kp RIGHT_PARENTHESIS  &kp ENTER
-&trans  &kp LSHIFT    &kp EXCLAMATION    &trans      &kp F10       &kp BACKSLASH    &kp AMPS  &kp DOWN        &mkp MB4   &mkp MB5               &kp RIGHT_SHIFT  &trans
+&trans  &kp LSHIFT    &kp EXCLAMATION    &kp COLON   &kp F10       &kp BACKSLASH    &kp AMPS  &kp DOWN        &mkp MB4   &mkp MB5               &kp RIGHT_SHIFT  &trans
                                          &trans      &none         &none            &none     &kp LA(GRAVE)   &trans
             >;
         };
