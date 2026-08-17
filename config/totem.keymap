@@ -72,7 +72,7 @@
         };
 
         equal {
-            bindings = <&kp DOT>;
+            bindings = <&kp EQUAL>;
             key-positions = <30 19>;
         };
     };
