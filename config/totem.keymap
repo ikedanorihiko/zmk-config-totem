@@ -79,6 +79,11 @@
             bindings = <&kp RCTRL>;
             key-positions = <17 18>;
         };
+
+        combo_alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <11 12>;
+        };
     };
 
     macros {
